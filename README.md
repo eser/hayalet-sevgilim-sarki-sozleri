@@ -106,20 +106,20 @@ Shell:
 
 ```bash
 data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json)
-# echo $data
+# echo $data
 ```
 
 Python I:
 
 ```py
-cd ./hayalet-sevgilim-sarki-sozleri/py
+cd ./py
 python3 program.py
 ```
 
 Python II:
 
 ```py
-cd ./hayalet-sevgilim-sarki-sozleri/python
+cd ./python
 make || make run || uvicorn main:app --reload
 ```
 
@@ -140,6 +140,20 @@ GO:
 import "github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/go/hayaletsevgilim"
 
 hayaletsevgilim.Print();
+PowerShell:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json";
+
+echo $result.Content;
+```
+
+Rust && Rust II:
+
+```rust
+cargo build
+cargo run
 ```
 
 ## Programlama Dilleri
@@ -152,6 +166,8 @@ hayaletsevgilim.Print();
 - [Swift](./swift/)
 - [PHP](./php/)
 - [Go](./go/)
+- [Rust](./rust/)
+- [Rust II](./rs/)
 
 ## Yol Haritası
 
