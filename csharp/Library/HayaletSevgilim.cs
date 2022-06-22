@@ -58,7 +58,7 @@
         "Bebeğim benim hayalet sevgilim",
         "",
         "Hayalet sevgilim",
-        "Hayalet sevgilim"
+        "Hayalet sevgilim..."
     };
     public string Data => string.Join(Environment.NewLine, this.DATA);
     public string[] Lines => DATA;
