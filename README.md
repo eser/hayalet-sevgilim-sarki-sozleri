@@ -279,6 +279,9 @@ docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki
 
 iOS App:
 
+<img src="./screenshots/ios/ios3.png" width="300" />
+<img src="./screenshots/ios/ios1.png" width="300" />
+<img src="./screenshots/ios/ios2.png" width="300" />
 ```
 OPEN XCODE AND JUST RUN
 ```
