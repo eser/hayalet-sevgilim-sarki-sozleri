@@ -140,6 +140,13 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
+GO:
+
+```go
+
+import "github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/go/hayaletsevgilim"
+
+hayaletsevgilim.Print();
 PowerShell:
 
 ```powershell
@@ -165,6 +172,7 @@ cargo run
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
+- [Go](./go/)
 - [Rust](./rust/)
 - [Rust II](./rs/)
 
