@@ -70,6 +70,24 @@ Baktım GitHub "popülerlik" kriterleri koymaya başlamış, bunlar üzerinden k
 
 Aslında bunu Twitter'dan bas bas duyurmam, GitHub'da popüler repolara girdikten sonra gifler alıp yine Twitter'da dolaşıma sokmam, YouTube'da videosunu çekip sonra bu videoyu buraya linklemem filan gerekli daha fazla star alması için. Ama onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle çalışıyor.
 
+## Programatik Kullanım
+
+Deno / Web / ES Modules:
+```js
+import data from "./index.json" assert { type: "json" };
+```
+
+Node.js:
+```js
+const data = require("./index.json");
+```
+
+
+## Yol Haritası
+
+- ES Module ve package.json eklenip Deno / node.js / Web üzerinden kullanımı sağlanacak.
+- Python için de bir modül oluşturulabilir.
+
 ## Lisans
 
 Apache-2.0
