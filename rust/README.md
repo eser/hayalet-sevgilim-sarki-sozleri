@@ -1,0 +1,1 @@
+# 🚀 Blazingly fast with Rust 🚀
