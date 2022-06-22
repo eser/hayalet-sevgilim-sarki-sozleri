@@ -109,11 +109,18 @@ data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki
 # echo $data
 ```
 
-Python:
+Python I:
 
 ```py
 cd ./hayalet-sevgilim-sarki-sozleri/py
 python3 program.py
+```
+
+Python II:
+
+```py
+cd ./hayalet-sevgilim-sarki-sozleri/python
+make || make run || uvicorn main:app --reload
 ```
 
 PHP:
