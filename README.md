@@ -97,10 +97,8 @@ import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim
 
 Node.js:
 
-Ensure that [hayalet npm module](https://npmjs.com/hayalet) is installed.
-
 ```js
-const data = require("hayalet");
+const data = require("./index.json");
 // console.log(data);
 ```
 
@@ -116,6 +114,13 @@ Python:
 ```py
 cd ./hayalet-sevgilim-sarki-sozleri/py
 python3 program.py
+```
+
+Python II:
+
+```python
+cd ./hayalet-sevgilim-sarki-sozleri/python
+make || make run || uvicorn main:app --reload
 ```
 
 ## Programlama Dilleri
