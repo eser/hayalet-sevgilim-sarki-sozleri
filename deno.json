@@ -1,0 +1,32 @@
+{
+  "lint": {
+    "files": {
+      "include": [
+        "./"
+      ],
+      "exclude": []
+    },
+    "rules": {
+      "tags": [
+        "recommended"
+      ],
+      "include": [
+        "ban-untagged-todo"
+      ],
+      "exclude": [
+        "no-unused-vars"
+      ]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": [
+        "./"
+      ],
+      "exclude": []
+    }
+  },
+  "tasks": {
+    "start": "deno run ./index.js"
+  }
+}

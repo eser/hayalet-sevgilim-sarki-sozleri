@@ -1,6 +1,5 @@
 # Hayalet Sevgilim Şarkı Sözleri
 
-
 ## İçerik
 
 ```
@@ -63,29 +62,45 @@ Hayalet sevgilim
 Hayalet sevgilim
 ```
 
-
 ## Neden
 
-Baktım GitHub "popülerlik" kriterleri koymaya başlamış, bunlar üzerinden kullanıcıları ve katkıları ayrımlamaya başlamış. O halde ben de popülizmin dibine vurmak istedim. Buyrun, Sözleri İrem Aydın'a ait olan Hayalet Sevgilim. Bugüne kadar topluluk yararını gözettiğini düşündüğüm GitHub, bu repoyu starlarsanız belki seneye beni de sevgili popüler kullanıcılar listesine alır 🙏 Lütfen alsın çünkü.
+Baktım GitHub "popülerlik" kriterleri koymaya başlamış, bunlar üzerinden
+kullanıcıları ve katkıları ayrımlamaya başlamış. O halde ben de popülizmin
+dibine vurmak istedim. Buyrun, Sözleri İrem Aydın'a ait olan Hayalet Sevgilim.
+Bugüne kadar topluluk yararını gözettiğini düşündüğüm GitHub, bu repoyu
+starlarsanız belki seneye beni de sevgili popüler kullanıcılar listesine alır 🙏
+Lütfen alsın çünkü.
 
-Aslında bunu Twitter'dan bas bas duyurmam, GitHub'da popüler repolara girdikten sonra gifler alıp yine Twitter'da dolaşıma sokmam, YouTube'da videosunu çekip sonra bu videoyu buraya linklemem filan gerekli daha fazla star alması için. Ama onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle çalışıyor.
+Aslında bunu Twitter'dan bas bas duyurmam, GitHub'da popüler repolara girdikten
+sonra gifler alıp yine Twitter'da dolaşıma sokmam, YouTube'da videosunu çekip
+sonra bu videoyu buraya linklemem filan gerekli daha fazla star alması için. Ama
+onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle
+çalışıyor.
 
 ## Programatik Kullanım
 
 Deno / Web / ES Modules:
+
 ```js
-import data from "./index.json" assert { type: "json" };
+import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/index.json" assert {
+  type: "json",
+};
+```
+
+veya
+
+```js
+import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/mod.js";
 ```
 
 Node.js:
+
 ```js
 const data = require("./index.json");
 ```
 
-
 ## Yol Haritası
 
-- ES Module ve package.json eklenip Deno / node.js / Web üzerinden kullanımı sağlanacak.
 - Python için de bir modül oluşturulabilir.
 
 ## Lisans
