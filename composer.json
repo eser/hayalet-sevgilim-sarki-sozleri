@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Eserozvataf\\HayaletSevgilimSarkiSozleri\\": "src/"
+            "Eserozvataf\\HayaletSevgilimSarkiSozleri\\": "php/src/"
         }
     },
     "require": {}
