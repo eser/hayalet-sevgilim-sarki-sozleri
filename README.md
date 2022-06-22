@@ -278,6 +278,15 @@ c(hayalet_sevgilim).
 hayalet_sevgilim:print().
 ```
 
+Nginx Web Server in Docker Container:
+
+```bash
+docker build -t hayalet-sevgilim-sarki-sozleri .
+..
+docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki-sozleri
+```
+
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
