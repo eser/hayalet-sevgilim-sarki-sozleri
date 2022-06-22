@@ -208,6 +208,9 @@ Dart:
 - [C](./c/)
 - [Dart](./dart/)
 
+## Metin Editörleri
+- [Open Office](./ODT)
+
 ## Yol Haritası
 
 - PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
