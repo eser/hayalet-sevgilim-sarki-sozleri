@@ -246,6 +246,9 @@ elixir main.exs
 - [SQL](./sql/)
 - [Elixir](./elixir/)
 
+## Metin Editörleri
+- [Open Office](./ODT)
+
 ## Yol Haritası
 
 - PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
