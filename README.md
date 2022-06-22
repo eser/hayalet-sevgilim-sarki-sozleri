@@ -140,13 +140,15 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
-GO:
+GO I:
 
 ```go
 
 import "github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/go/hayaletsevgilim"
 
 hayaletsevgilim.Print();
+```
+
 PowerShell:
 
 ```powershell
@@ -156,9 +158,18 @@ $result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent
 echo $result.Content;
 ```
 
-Rust && Rust II:
+Rust I:
 
 ```bash
+cd ./rust
+cargo build
+cargo run
+```
+
+Rust II:
+
+```bash
+cd ./rs
 cargo build
 cargo run
 ```
@@ -172,8 +183,9 @@ cargo run
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
-- [Go](./go/)
-- [Rust](./rust/)
+- [Go I](./go/)
+- [Go II](./golang/)
+- [Rust I](./rust/)
 - [Rust II](./rs/)
 
 
