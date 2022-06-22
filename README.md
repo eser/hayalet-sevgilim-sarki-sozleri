@@ -82,9 +82,7 @@ onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle
 Deno / Web / ES Modules:
 
 ```js
-import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert {
-  type: "json",
-};
+import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert { type: "json" };
 // console.log(data);
 ```
 
@@ -243,7 +241,7 @@ lua ./lua/main.lua
 CSS:
 
 ```html
-<link rel="stylesheet" href="hayalet_sevgilim.css">
+<link rel="stylesheet" href="hayalet_sevgilim.css" />
 ```
 
 Brainfuck:
@@ -266,10 +264,10 @@ perl ./perl/hayalet_sevgilim.pl
 ```
 
 Emacs-lis:
+
 ```bash
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
-
 
 Nginx Web Server in Docker Container:
 
@@ -279,6 +277,11 @@ docker build -t hayalet-sevgilim-sarki-sozleri .
 docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki-sozleri
 ```
 
+iOS App:
+
+```
+OPEN XCODE AND JUST RUN
+```
 
 ## Programlama Dilleri
 
@@ -306,20 +309,19 @@ docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki
 - [Bash](./bash)
 - [Perl](./perl/)
 - [Emacs Lisp](./emacs-lisp/)
-
+- [iOS/Swift](./ios/)
 
 ## Kütüphaneler
+
 - [AngularJS](./library/angularjs/)
 
-
 ## Metin Editörleri
-- [Open Office](./ODT)
 
+- [Open Office](./ODT)
 
 ## Yol Haritası
 
 - PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
-
 
 ## Lisans
 
