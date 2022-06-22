@@ -7,11 +7,12 @@
 
 import UIKit
 import AVFoundation
+import youtube_ios_player_helper
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, YTPlayerViewDelegate {
     private let gradient = CAGradientLayer()
-    var AudioPlayer = AVAudioPlayer()
     var timer = Timer()
+    @IBOutlet weak var playerView: YTPlayerView!
     @IBOutlet weak var lyricTextLabel: UILabel!
     
     override func viewDidLoad() {
@@ -19,7 +20,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         animateGradient()
         playHayaletSevgilim()
-        
+        playerView.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,23 +28,30 @@ class ViewController: UIViewController {
     }
     
     func checkTheLyric() {
-        let currentTime1 = Double(AudioPlayer.currentTime)
-        let string = lyricHandler(time: currentTime1)
-        if let textfieldText = lyricTextLabel.text, textfieldText != string {
-            lyricTextLabel.text = string
-            lyricTextLabel.fadeIn()
+        playerView.currentTime { data,err  in
+            let currentTime = Double(data)
+            let string = lyricHandler(time: currentTime)
+            if let textfieldText = self.lyricTextLabel.text, textfieldText != string {
+                self.lyricTextLabel.text = string
+                self.lyricTextLabel.fadeIn()
+            }
         }
     }
     
-    private func playHayaletSevgilim() {
-        let AssortedMusics = NSURL(fileURLWithPath: Bundle.main.path(forResource: "hayalet-sevgilim", ofType: "mp3")!)
-        AudioPlayer = try! AVAudioPlayer(contentsOf: AssortedMusics as URL)
-        AudioPlayer.prepareToPlay()
-        AudioPlayer.numberOfLoops = -1
-        AudioPlayer.play()
+    func playerViewDidBecomeReady(_ playerView: YTPlayerView) {
+        playerView.playVideo()
         self.timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self] _ in
             self?.checkTheLyric()
         })
+    }
+    
+    private func playHayaletSevgilim() {
+        let playerVars = ["playsinline" : 1,
+                            "autoplay" : 1,
+                            "showinfo" : 0,
+                            "rel" : 0,
+                            "controls" : 0]
+        playerView.load(withVideoId: "MGGV0P_ZmNs", playerVars: playerVars)
     }
     
     private func animateGradient() {
