@@ -60,14 +60,6 @@
         "Hayalet sevgilim",
         "Hayalet sevgilim"
     };
-
     public string Data => string.Join(Environment.NewLine, this.DATA);
-
-    internal IEnumerable<string> GetLines()
-    {
-        foreach (var line in DATA)
-            yield return line;
-    }
-
-    public IEnumerable<string> Lines => this.GetLines();
+    public string[] Lines => DATA;
 }
