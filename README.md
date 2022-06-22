@@ -1,6 +1,7 @@
 # Hayalet Sevgilim Şarkı Sözleri
 
-## İçerik
+
+## İçerik
 
 ```
 Ceza mı bu
@@ -52,13 +53,13 @@ Hayalet sevgilim
 ```
 
 
-## Neden
+## Neden
 
 Baktım GitHub "popülerlik" kriterleri koymaya başlamış, bunlar üzerinden kullanıcıları ve katkıları ayrımlamaya başlamış. O halde ben de popülizmin dibine vurmak istedim. Buyrun Sözleri İrem Aydın'a ait olan Hayalet Sevgilim. Bugüne kadar topluluk yararını gözettiğini düşündüğüm GitHub, bu repoyu starlarsanız belki seneye beni de sevgili popüler kullanıcılar listesine alır 🙏 Lütfen alsın çünkü.
 
 Aslında bunu twitter'dan bas bas duyurmam, GitHub'da popüler repolara girdikten sonra gifler alıp yine twitter'da dolaşıma sokmam, youtube'da videosunu çekip sonra bu videoyu buraya linklemem filan gerekli daha fazla star alması için. Ama onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle çalışıyor.
 
 
-## Lisans
+## Lisans
 
 Apache-2.0
