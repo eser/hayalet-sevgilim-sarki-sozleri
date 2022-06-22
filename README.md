@@ -133,7 +133,7 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
-PHP:
+GO:
 
 ```go
 
