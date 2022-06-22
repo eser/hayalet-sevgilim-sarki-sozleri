@@ -109,15 +109,23 @@ data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki
 # echo $data
 ```
 
+Python:
+
+```py
+ cd ./hayalet-sevgilim-sarki-sozleri/py
+ python3 program.py
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
 - [CSharp](./csharp/)
 - [Shell Script](README.md)
+- [Python](./py/)
 
 ## Yol Haritası
 
-- Python, PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
+- PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
 
 ## Lisans
 
