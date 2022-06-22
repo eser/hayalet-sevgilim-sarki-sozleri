@@ -1,0 +1,1 @@
+Get-Content .\LYRICS.json | ConvertFrom-Json
