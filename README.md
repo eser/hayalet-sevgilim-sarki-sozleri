@@ -193,7 +193,7 @@ go run .
 ```
 
 C:
- 
+
 ```bash
 gcc main.c
 
@@ -238,6 +238,16 @@ Lua:
 
 ```bash
 lua ./lua/main.lua
+```
+
+Unity3D:
+
+```bash
+/Applications/Unity/Hub/Editor/<version>/Unity.app/Contents/Linux/Unity -projectPath ./unity/
+
+or
+
+"C:\Program Files\Unity\Hub\Editor\<version>\Editor\Unity.exe" -projectPath "./unity/"
 ```
 
 CSS:
