@@ -229,14 +229,22 @@ elixir main.exs
 Lua:
 
 ```bash
-  lua ./lua/main.lua
+lua ./lua/main.lua
+```
+
+Brainfuck:
+
+```bash
+brainfuck ./brainfuck/main.bf
 ```
 
 Bash:
+
 ```sh
 chmod +x ./bash/hayalet_sevgilim.sh
 ./bash/hayalet_sevgilim.sh
 ```
+
 
 ## Programlama Dilleri
 
@@ -258,6 +266,7 @@ chmod +x ./bash/hayalet_sevgilim.sh
 - [Lua](./lua/)
 - [SQL](./sql/)
 - [Elixir](./elixir/)
+- [Brainfuck](./brainfuck/)
 - [Bash](./bash)
 
 ## Metin Editörleri
