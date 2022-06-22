@@ -109,7 +109,7 @@ data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki
 # echo $data
 ```
 
-Python:
+Python I:
 
 ```py
 cd ./hayalet-sevgilim-sarki-sozleri/py
@@ -118,9 +118,19 @@ python3 program.py
 
 Python II:
 
-```python
+```py
 cd ./hayalet-sevgilim-sarki-sozleri/python
 make || make run || uvicorn main:app --reload
+```
+
+PHP:
+
+```php
+<?php
+
+use HayaletSevgilim\HayaletSevgilim;
+
+HayaletSevgilim::print();
 ```
 
 ## Programlama Dilleri
@@ -128,9 +138,10 @@ make || make run || uvicorn main:app --reload
 - [JavaScript](./js/)
 - [CSharp](./csharp/)
 - [Shell Script](README.md)
-- [Python](./py/) I
-- [Python](./python/) II
+- [Python I](./py/)
+- [Python II](./python/)
 - [Swift](./swift/)
+- [PHP](./php/)
 
 ## Yol Haritası
 
