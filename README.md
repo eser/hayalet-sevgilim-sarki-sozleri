@@ -153,9 +153,13 @@ PowerShell:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json";
+$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json"
 
-echo $result.Content;
+if ($result.StatusCode -eq 200)
+{
+    $lyrics = ConvertFrom-Json $result.Content
+    Write-Output $lyrics
+}
 ```
 
 Rust I:
@@ -199,17 +203,27 @@ gcc main.c
 Dart:
 
 ```dart
-  import 'HayaletSevgilim.dart';
+import 'HayaletSevgilim.dart';
 
-  HayaletSevgilim.printLyrics();
+HayaletSevgilim.printLyrics();
+```
+
+SQL:
+
+```bash
+# remote:
+mysql -u root -p -e "$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/sql/hayalet-sevgilim.sql)"
+
+# local:
+mysql -u root -p -e "$(cat sql/hayalet-sevgilim.sql)"
 ```
 
 Elixir:
 
 ```bash
-  cd ./elixir
+cd ./elixir
 
-  elixir main.exs
+elixir main.exs
 ```
 
 ## Programlama Dilleri
@@ -226,8 +240,10 @@ Elixir:
 - [Rust I](./rust/)
 - [Rust II](./rs/)
 - [Ruby](./ruby/)
-- [C](./c/)
+- [C](./C/)
 - [Dart](./dart/)
+- [Java](./java/)
+- [SQL](./sql/)
 - [Elixir](./elixir/)
 
 ## Yol Haritası
