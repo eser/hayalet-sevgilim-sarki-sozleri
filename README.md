@@ -140,6 +140,15 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
+GO I:
+
+```go
+
+import "github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/go/hayaletsevgilim"
+
+hayaletsevgilim.Print();
+```
+
 PowerShell:
 
 ```powershell
@@ -149,18 +158,50 @@ $result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent
 echo $result.Content;
 ```
 
-Rust && Rust II:
+Rust I:
 
 ```bash
+cd ./rust
 cargo build
 cargo run
 ```
 
-Golang:
+Rust II:
 
-```Go
-cd ./hayalet-sevgilim-sarki-sozleri/Golang
+```bash
+cd ./rs
+cargo build
+cargo run
+```
+
+GO I:
+
+```bash
+cd ./go
 go run .
+```
+
+GO II:
+
+```bash
+cd ./golang
+go run .
+```
+
+C:
+
+```bash
+gcc main.c
+
+./a.out
+```
+
+Dart:
+
+```dart
+  import 'HayaletSevgilim.dart';
+
+  HayaletSevgilim.printLyrics();
 ```
 
 ## Programlama Dilleri
@@ -172,10 +213,13 @@ go run .
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
-- [Rust](./rust/)
+- [Go I](./go/)
+- [Go II](./golang/)
+- [Rust I](./rust/)
 - [Rust II](./rs/)
-- [Go](./golang/)
-
+- [Ruby](./ruby/)
+- [C](./c/)
+- [Dart](./dart/)
 
 ## Yol Haritası
 
