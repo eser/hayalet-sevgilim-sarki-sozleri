@@ -100,6 +100,14 @@ const data = require("./index.json");
 // console.log(data);
 ```
 
+TypeScript:
+
+```typescript
+cd ./ts
+npm i
+npm run start
+```
+
 Shell:
 
 ```bash
@@ -222,14 +230,6 @@ Elixir:
 cd ./elixir
 
 elixir main.exs
-```
-
-TypeScript:
-
-```typescript
-cd ./ts
-npm i
-npm run start
 ```
 
 ## Programlama Dilleri
