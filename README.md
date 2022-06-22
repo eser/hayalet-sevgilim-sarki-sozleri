@@ -106,20 +106,20 @@ Shell:
 
 ```bash
 data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json)
-# echo $data
+# echo $data
 ```
 
 Python I:
 
 ```py
-cd ./py
+cd ./hayalet-sevgilim-sarki-sozleri/py
 python3 program.py
 ```
 
 Python II:
 
 ```py
-cd ./python
+cd ./hayalet-sevgilim-sarki-sozleri/python
 make || make run || uvicorn main:app --reload
 ```
 
@@ -133,23 +133,9 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
-PowerShell:
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json";
-
-echo $result.Content;
+```dart
+dart dart/main.dart
 ```
-
-Rust:
-
-```rust
-cd ./rust
-cargo build
-cargo run
-```
-
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
