@@ -193,11 +193,19 @@ go run .
 ```
 
 C:
-
+ 
 ```bash
 gcc main.c
 
 ./a.out
+```
+
+Asm:
+
+```bash
+cd  ./Asm
+Make
+./hs
 ```
 
 Dart:
@@ -273,6 +281,7 @@ perl ./perl/hayalet_sevgilim.pl
 - [Rust II](./rs/)
 - [Ruby](./ruby/)
 - [C](./C/)
+- [Asm](./Asm/)
 - [Dart](./dart/)
 - [Java](./java/)
 - [Lua](./lua/)
