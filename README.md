@@ -97,8 +97,10 @@ import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim
 
 Node.js:
 
+Ensure that [hayalet npm module](https://npmjs.com/hayalet) is installed.
+
 ```js
-const data = require("./index.json");
+const data = require("hayalet");
 // console.log(data);
 ```
 
