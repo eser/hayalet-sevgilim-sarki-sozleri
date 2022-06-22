@@ -82,23 +82,21 @@ onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle
 Deno / Web / ES Modules:
 
 ```js
-import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert {
-  type: "json",
-};
+import data from 'https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json' assert { type: 'json' }
 // console.log(data);
 ```
 
 veya
 
 ```js
-import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/mod.js";
+import data from 'https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/mod.js'
 // console.log(data);
 ```
 
 Node.js:
 
 ```js
-const data = require("./index.json");
+const data = require('./index.json')
 // console.log(data);
 ```
 
@@ -125,13 +123,18 @@ make || make run || uvicorn main:app --reload
 
 PHP:
 
-```php
+````php
 <?php
 
 use HayaletSevgilim\HayaletSevgilim;
 
 HayaletSevgilim::print();
-```
+Rust:
+```rust
+cd ./hayalet-sevgilim-sarki-sozleri/rust
+cargo build
+cargo run
+````
 
 ## Programlama Dilleri
 
