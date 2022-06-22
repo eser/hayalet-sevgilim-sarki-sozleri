@@ -251,6 +251,12 @@ chmod +x ./bash/hayalet_sevgilim.sh
 ./bash/hayalet_sevgilim.sh
 ```
 
+Perl:
+
+```bash
+perl ./perl/hayalet_sevgilim.pl
+```
+
 
 ## Programlama Dilleri
 
@@ -275,13 +281,17 @@ chmod +x ./bash/hayalet_sevgilim.sh
 - [CSS](./css/)
 - [Brainfuck](./brainfuck/)
 - [Bash](./bash)
+- [Perl](./perl/)
+
 
 ## Metin Editörleri
 - [Open Office](./ODT)
 
+
 ## Yol Haritası
 
 - PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
+
 
 ## Lisans
 
