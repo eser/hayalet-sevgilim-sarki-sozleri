@@ -259,7 +259,7 @@ Brainfuck:
 - [Rust I](./rust/)
 - [Rust II](./rs/)
 - [Ruby](./ruby/)
-- [C](./c/)
+- [C](./C/)
 - [Asm](./Asm/)
 - [Dart](./dart/)
 - [Java](./java/)
