@@ -182,6 +182,15 @@ gcc main.c
 ./a.out
 ```
 
+Dart:
+
+```dart
+  import 'HayaletSevgilim.dart';
+
+  HayaletSevgilim.printLyrics();
+
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -197,6 +206,7 @@ gcc main.c
 - [Rust II](./rs/)
 - [Ruby](./ruby/)
 - [C](./c/)
+- [Dart](./dart/)
 
 ## Yol Haritası
 
