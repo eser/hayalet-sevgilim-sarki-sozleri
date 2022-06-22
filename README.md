@@ -266,8 +266,18 @@ perl ./perl/hayalet_sevgilim.pl
 ```
 
 Emacs-lis:
+
 ```bash
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
+```
+
+Erlang:
+
+```bash
+cd ./erlang
+erl
+c(hayalet_sevgilim).
+hayalet_sevgilim:print().
 ```
 
 Nginx Web Server in Docker Container:
@@ -311,6 +321,7 @@ nix run
 - [Bash](./bash)
 - [Perl](./perl/)
 - [Emacs Lisp](./emacs-lisp/)
+- [Erlang](./erlang/)
 - [Haskell](./haskell/)
 
 
@@ -320,6 +331,7 @@ nix run
 
 ## Metin Editörleri
 - [Open Office](./ODT)
+- [YAML](./yaml)
 
 
 ## Yol Haritası
