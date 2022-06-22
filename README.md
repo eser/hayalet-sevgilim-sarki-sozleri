@@ -232,6 +232,11 @@ Lua:
   lua ./lua/main.lua
 ```
 
+Brainfuck:
+
+```bash
+  brainfuck ./brainfuck/main.bf
+```
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -252,6 +257,7 @@ Lua:
 - [Lua](./lua/)
 - [SQL](./sql/)
 - [Elixir](./elixir/)
+- [Brainfuck](./brainfuck/)
 
 ## Metin Editörleri
 - [Open Office](./ODT)
