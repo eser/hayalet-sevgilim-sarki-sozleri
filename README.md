@@ -133,6 +133,17 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
+
+Dart:
+
+```dart
+  import 'HayaletSevgilim.dart';
+
+  HayaletSevgilim.printLyrics();
+
+```
+
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -142,6 +153,7 @@ HayaletSevgilim::print();
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
+- [Dart](./dart/)
 
 ## Yol Haritası
 
