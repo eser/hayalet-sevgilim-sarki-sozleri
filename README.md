@@ -114,6 +114,7 @@ data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki
 - [JavaScript](./js/)
 - [CSharp](./csharp/)
 - [Shell Script](.)
+- [Swift](./swift/)
 
 ## Yol Haritası
 
