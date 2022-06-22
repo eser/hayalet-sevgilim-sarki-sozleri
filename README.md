@@ -266,11 +266,13 @@ perl ./perl/hayalet_sevgilim.pl
 ```
 
 Emacs-lis:
+
 ```bash
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
 
 Erlang:
+
 ```bash
 cd ./erlang
 erl
@@ -284,6 +286,12 @@ Nginx Web Server in Docker Container:
 docker build -t hayalet-sevgilim-sarki-sozleri .
 ..
 docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki-sozleri
+```
+
+Haskell:
+
+```bash
+nix run
 ```
 
 
@@ -314,6 +322,7 @@ docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki
 - [Perl](./perl/)
 - [Emacs Lisp](./emacs-lisp/)
 - [Erlang](./erlang/)
+- [Haskell](./haskell/)
 
 
 ## Kütüphaneler
