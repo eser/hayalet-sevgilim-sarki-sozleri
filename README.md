@@ -138,9 +138,10 @@ HayaletSevgilim::print();
 - [JavaScript](./js/)
 - [CSharp](./csharp/)
 - [Shell Script](README.md)
-- [Python](./py/) I
-- [Python](./python/) II
+- [Python I](./py/)
+- [Python II](./python/)
 - [Swift](./swift/)
+- [PHP](./php/)
 
 ## Yol Haritası
 
