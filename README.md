@@ -187,7 +187,7 @@ cargo run
 - [Go II](./golang/)
 - [Rust I](./rust/)
 - [Rust II](./rs/)
-
+- [Ruby](./ruby/)
 
 ## Yol Haritası
 
