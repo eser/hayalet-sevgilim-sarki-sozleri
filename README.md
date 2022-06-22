@@ -156,6 +156,13 @@ cargo build
 cargo run
 ```
 
+Golang:
+
+```Go
+cd ./hayalet-sevgilim-sarki-sozleri/Golang
+go run .
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -167,6 +174,7 @@ cargo run
 - [PHP](./php/)
 - [Rust](./rust/)
 - [Rust II](./rs/)
+- [Go](./golang/)
 
 
 ## Yol Haritası
