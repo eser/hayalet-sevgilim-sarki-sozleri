@@ -232,6 +232,12 @@ Lua:
 lua ./lua/main.lua
 ```
 
+CSS:
+
+```html
+<link rel="stylesheet" href="hayalet_sevgilim.css">
+```
+
 Brainfuck:
 
 ```bash
@@ -240,7 +246,7 @@ brainfuck ./brainfuck/main.bf
 
 Bash:
 
-```sh
+```bash
 chmod +x ./bash/hayalet_sevgilim.sh
 ./bash/hayalet_sevgilim.sh
 ```
@@ -266,6 +272,7 @@ chmod +x ./bash/hayalet_sevgilim.sh
 - [Lua](./lua/)
 - [SQL](./sql/)
 - [Elixir](./elixir/)
+- [CSS](./css/)
 - [Brainfuck](./brainfuck/)
 - [Bash](./bash)
 
