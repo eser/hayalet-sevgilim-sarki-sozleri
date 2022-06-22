@@ -13,6 +13,9 @@
 		C6D209FC2863A29B00A1423E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D209FA2863A29B00A1423E /* Main.storyboard */; };
 		C6D209FE2863A29D00A1423E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D209FD2863A29D00A1423E /* Assets.xcassets */; };
 		C6D20A012863A29D00A1423E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D209FF2863A29D00A1423E /* LaunchScreen.storyboard */; };
+		C6D20A092863A8F000A1423E /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D20A082863A8F000A1423E /* UIColor+.swift */; };
+		C6D20A0D2863AFD100A1423E /* LyricModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D20A0C2863AFD100A1423E /* LyricModel.swift */; };
+		C6D20A0F2863BF1000A1423E /* hayalet-sevgilim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C6D20A0E2863BF1000A1423E /* hayalet-sevgilim.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C6D209FD2863A29D00A1423E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6D20A002863A29D00A1423E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6D20A022863A29D00A1423E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D20A082863A8F000A1423E /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		C6D20A0C2863AFD100A1423E /* LyricModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricModel.swift; sourceTree = "<group>"; };
+		C6D20A0E2863BF1000A1423E /* hayalet-sevgilim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hayalet-sevgilim.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		C6D209F32863A29B00A1423E /* hayaletsevgilim */ = {
 			isa = PBXGroup;
 			children = (
+				C6D20A0E2863BF1000A1423E /* hayalet-sevgilim.mp3 */,
 				C6D209F42863A29B00A1423E /* AppDelegate.swift */,
 				C6D209F62863A29B00A1423E /* SceneDelegate.swift */,
 				C6D209F82863A29B00A1423E /* ViewController.swift */,
@@ -63,6 +70,8 @@
 				C6D209FD2863A29D00A1423E /* Assets.xcassets */,
 				C6D209FF2863A29D00A1423E /* LaunchScreen.storyboard */,
 				C6D20A022863A29D00A1423E /* Info.plist */,
+				C6D20A082863A8F000A1423E /* UIColor+.swift */,
+				C6D20A0C2863AFD100A1423E /* LyricModel.swift */,
 			);
 			path = hayaletsevgilim;
 			sourceTree = "<group>";
@@ -128,6 +137,7 @@
 				C6D20A012863A29D00A1423E /* LaunchScreen.storyboard in Resources */,
 				C6D209FE2863A29D00A1423E /* Assets.xcassets in Resources */,
 				C6D209FC2863A29B00A1423E /* Main.storyboard in Resources */,
+				C6D20A0F2863BF1000A1423E /* hayalet-sevgilim.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D209F92863A29B00A1423E /* ViewController.swift in Sources */,
+				C6D20A0D2863AFD100A1423E /* LyricModel.swift in Sources */,
+				C6D20A092863A8F000A1423E /* UIColor+.swift in Sources */,
 				C6D209F52863A29B00A1423E /* AppDelegate.swift in Sources */,
 				C6D209F72863A29B00A1423E /* SceneDelegate.swift in Sources */,
 			);
