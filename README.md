@@ -106,21 +106,54 @@ Shell:
 
 ```bash
 data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json)
-# echo $data
+# echo $data
 ```
 
-Python:
+Python I:
 
-```py
-cd ./hayalet-sevgilim-sarki-sozleri/py
+```bash
+cd ./py
 python3 program.py
+```
+
+Python II:
+
+```bash
+cd ./python
+make || make run || uvicorn main:app --reload
 ```
 
 Swift:
 
-```py
+```bash
 cd ./hayalet-sevgilim-sarki-sozleri/swift/HayaletSevgilim-CommandLine
 swift run
+```
+
+PHP:
+
+```php
+<?php
+
+use HayaletSevgilim\HayaletSevgilim;
+
+HayaletSevgilim::print();
+```
+
+PowerShell:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json";
+
+echo $result.Content;
+```
+
+Rust && Rust II:
+
+```bash
+cargo build
+cargo run
 ```
 
 ## Programlama Dilleri
@@ -128,9 +161,13 @@ swift run
 - [JavaScript](./js/)
 - [CSharp](./csharp/)
 - [Shell Script](README.md)
-- [Python](./py/) I
-- [Python](./python/) II
+- [Python I](./py/)
+- [Python II](./python/)
 - [Swift](./swift/)
+- [PHP](./php/)
+- [Rust](./rust/)
+- [Rust II](./rs/)
+
 
 ## Yol Haritası
 

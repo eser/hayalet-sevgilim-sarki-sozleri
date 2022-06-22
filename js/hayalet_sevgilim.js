@@ -1,14 +1,5 @@
-import json
-
-
-def sozler():
-    with open("../js/index.json", "r") as f:
-        data = json.load(f)
-
-    return data
-
-def hayalet_sevgilim():
-    return """Ceza mı bu
+function hayalet_sevgilim() {
+    return `Ceza mı bu
 Çektiğim çile mi
 Yıllardır tuttuğum nöbet bitmeyecek mi?
 Bir küçük kar tanesi gibiyim
@@ -64,4 +55,8 @@ Bebeğim benim hayalet sevgilim
 Bebeğim benim hayalet sevgilim
 
 Hayalet sevgilim
-Hayalet sevgilim"""
+Hayalet sevgilim
+`;
+}
+
+export default hayalet_sevgilim;

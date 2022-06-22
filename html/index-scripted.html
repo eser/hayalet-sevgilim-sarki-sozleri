@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hayalet Sevgilim</title>
+    <style>
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sozler"></div>
+    <script type="text/javascript">
+      const data = [
+        "Ceza mı bu",
+        "Çektiğim çile mi",
+        "Yıllardır tuttuğum nöbet bitmeyecek mi?",
+        "Bir küçük kar tanesi gibiyim",
+        "Avucunda eriyen dön bebeğim",
+        "",
+        "Gözyaşlarını görürsem",
+        "Erir kanatlarım",
+        "Uçamam rüyalarında yanına",
+        "Sonsuzluk senle başladı",
+        "O küçük dünyamda",
+        "Unutma gittiğinde yarım kaldım",
+        "",
+        "Çöllerdeyim yanıyorum",
+        "Kutuptayım üşüyorum",
+        "Ceza benim çekiyorum ne olur dön",
+        "Uzanıyorum tutamıyorum",
+        "Özlüyorum ağlıyorum",
+        "Yasak mısın anlamıyorum ne olur dön",
+        "",
+        "Sevmesen de beni özledim sesini",
+        "Git desem de yine gitmesen",
+        "Yıllardır çektiğim bu hasret mi çile mi?",
+        "Haram mısın bana bi' bilsem",
+        "",
+        "Sevmesen de beni özledim sesini",
+        "Git desem de yine gitmesen",
+        "Yıllardır çektiğim bu hasret mi çile mi?",
+        "Haram mısın bana bi' bilsem",
+        "",
+        "Bebeğim benim, hayalet sevgilim",
+        "Bebeğim benim, hayalet sevgilim",
+        "",
+        "Hayalet sevgilim",
+        "",
+        "Çöllerdeyim yanıyorum",
+        "Kutuptayım üşüyorum",
+        "Ceza benim çekiyorum ne olur dön",
+        "Uzanıyorum tutamıyorum",
+        "Özlüyorum ağlıyorum",
+        "Yasak mısın anlamıyorum ne olur dön",
+        "",
+        "Sevmesen de beni özledim sesini",
+        "Git desem de yine gitmesen",
+        "Yıllardır çektiğim bu hasret mi çile mi?",
+        "Haram mısın bana bi' bilsem",
+        "",
+        "Sevmesen de beni özledim sesini",
+        "Git desem de yine gitmesen",
+        "Yıllardır çektiğim bu hasret mi çile mi?",
+        "Haram mısın bana bi' bilsem",
+        "",
+        "Bebeğim benim hayalet sevgilim",
+        "Bebeğim benim hayalet sevgilim",
+        "",
+        "Hayalet sevgilim",
+        "Hayalet sevgilim",
+      ];
+
+      const container = document.getElementById("sozler");
+
+      for (let i = 0; i < data.length; i++) {
+        const soz = data[i];
+        let el = document.createElement("p");
+        if (soz === "") {
+          el = document.createElement("br");
+        }
+        el.innerHTML = soz;
+        container.appendChild(el);
+      }
+    </script>
+  </body>
+</html>
