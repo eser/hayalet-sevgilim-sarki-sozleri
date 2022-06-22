@@ -79,31 +79,35 @@ onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle
 
 ## Programatik Kullanım
 
-Deno / Web / ES / Shell Modules:
+Deno / Web / ES Modules:
 
 ```js
 import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert {
   type: "json",
 };
+// console.log(data);
 ```
 
 veya
 
 ```js
 import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/mod.js";
+// console.log(data);
 ```
 
 Node.js:
 
 ```js
 const data = require("./index.json");
+// console.log(data);
 ```
 
 Shell:
+
 ```bash
 data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json)
+# echo $data
 ```
-
 
 ## Programlama Dilleri
 
