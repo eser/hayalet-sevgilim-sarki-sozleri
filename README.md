@@ -203,17 +203,27 @@ gcc main.c
 Dart:
 
 ```dart
-  import 'HayaletSevgilim.dart';
+import 'HayaletSevgilim.dart';
 
-  HayaletSevgilim.printLyrics();
+HayaletSevgilim.printLyrics();
 ```
 
 SQL:
+
+```bash
+# remote:
+mysql -u root -p -e "$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/sql/hayalet-sevgilim.sql)"
+
+# local:
+mysql -u root -p -e "$(cat sql/hayalet-sevgilim.sql)"
 ```
-$ # remote:
-$ mysql -u root -p -e "$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/sql/hayalet-sevgilim.sql)"
-$ # local:
-$ mysql -u root -p -e "$(cat sql/hayalet-sevgilim.sql)"
+
+Elixir:
+
+```bash
+cd ./elixir
+
+elixir main.exs
 ```
 
 ## Programlama Dilleri
@@ -233,6 +243,8 @@ $ mysql -u root -p -e "$(cat sql/hayalet-sevgilim.sql)"
 - [C](./C/)
 - [Dart](./dart/)
 - [Java](./java/)
+- [SQL](./sql/)
+- [Elixir](./elixir/)
 
 ## Yol Haritası
 
