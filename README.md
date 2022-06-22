@@ -232,6 +232,12 @@ Lua:
   lua ./lua/main.lua
 ```
 
+Bash:
+```sh
+chmod +x ./bash/hayalet_sevgilim.sh
+./bash/hayalet_sevgilim.sh
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -252,6 +258,7 @@ Lua:
 - [Lua](./lua/)
 - [SQL](./sql/)
 - [Elixir](./elixir/)
+- [Bash](./bash)
 
 ## Metin Editörleri
 - [Open Office](./ODT)
