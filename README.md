@@ -103,6 +103,10 @@ const data = require("./index.json");
 
 - Python için de bir modül oluşturulabilir.
 
+## Programlama Dilleri
+
+- [CSharp](./csharp/)
+
 ## Lisans
 
 Apache-2.0
