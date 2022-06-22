@@ -204,6 +204,14 @@ Dart:
   HayaletSevgilim.printLyrics();
 ```
 
+Elixir:
+
+```bash
+  cd ./elixir
+
+  elixir main.exs
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -220,6 +228,7 @@ Dart:
 - [Ruby](./ruby/)
 - [C](./c/)
 - [Dart](./dart/)
+- [Elixir](./elixir/)
 
 ## Yol Haritası
 
