@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

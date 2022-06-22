@@ -153,9 +153,13 @@ PowerShell:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json";
+$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json"
 
-echo $result.Content;
+if ($result.StatusCode -eq 200)
+{
+    $lyrics = ConvertFrom-Json $result.Content
+    Write-Output $lyrics
+}
 ```
 
 Rust I:
@@ -207,11 +211,40 @@ Make
 Dart:
 
 ```dart
-  import 'HayaletSevgilim.dart';
+import 'HayaletSevgilim.dart';
 
-  HayaletSevgilim.printLyrics();
+HayaletSevgilim.printLyrics();
 ```
 
+SQL:
+
+```bash
+# remote:
+mysql -u root -p -e "$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/sql/hayalet-sevgilim.sql)"
+
+# local:
+mysql -u root -p -e "$(cat sql/hayalet-sevgilim.sql)"
+```
+
+Elixir:
+
+```bash
+cd ./elixir
+
+elixir main.exs
+```
+
+Lua:
+
+```bash
+  lua ./lua/main.lua
+```
+
+Brainfuck:
+
+```bash
+  brainfuck ./brainfuck/main.bf
+```
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -229,6 +262,14 @@ Dart:
 - [C](./c/)
 - [Asm](./Asm/)
 - [Dart](./dart/)
+- [Java](./java/)
+- [Lua](./lua/)
+- [SQL](./sql/)
+- [Elixir](./elixir/)
+- [Brainfuck](./brainfuck/)
+
+## Metin Editörleri
+- [Open Office](./ODT)
 
 ## Yol Haritası
 

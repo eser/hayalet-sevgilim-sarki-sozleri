@@ -1,0 +1,31 @@
+{
+  "name": "hayalet-ts",
+  "version": "1.0.0",
+  "description": "hayalet sevgilim typescript version 1.0.0",
+  "main": "mod.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri.git"
+  },
+  "keywords": [
+    "irem",
+    "hayalet",
+    "sevgilim"
+  ],
+  "author": "Eser Ozvataf <eser@ozvataf.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/issues"
+  },
+  "homepage": "https://github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri#readme",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
