@@ -111,16 +111,23 @@ data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki
 
 Python I:
 
-```py
+```bash
 cd ./py
 python3 program.py
 ```
 
 Python II:
 
-```py
+```bash
 cd ./python
 make || make run || uvicorn main:app --reload
+```
+
+Swift:
+
+```bash
+cd ./hayalet-sevgilim-sarki-sozleri/swift/HayaletSevgilim-CommandLine
+swift run
 ```
 
 PHP:
@@ -144,7 +151,7 @@ echo $result.Content;
 
 Rust && Rust II:
 
-```rust
+```bash
 cargo build
 cargo run
 ```
@@ -160,6 +167,7 @@ cargo run
 - [PHP](./php/)
 - [Rust](./rust/)
 - [Rust II](./rs/)
+
 
 ## Yol Haritası
 
