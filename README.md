@@ -116,6 +116,16 @@ cd ./hayalet-sevgilim-sarki-sozleri/py
 python3 program.py
 ```
 
+PHP:
+
+```php
+<?php
+
+use HayaletSevgilim\HayaletSevgilim;
+
+HayaletSevgilim::print();
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
