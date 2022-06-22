@@ -204,6 +204,14 @@ Dart:
   HayaletSevgilim.printLyrics();
 ```
 
+SQL:
+```
+$ # remote:
+$ mysql -u root -p -e "$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/sql/hayalet-sevgilim.sql)"
+$ # local:
+$ mysql -u root -p -e "$(cat sql/hayalet-sevgilim.sql)"
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
