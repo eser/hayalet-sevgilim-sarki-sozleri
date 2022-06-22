@@ -232,6 +232,11 @@ Lua:
   lua ./lua/main.lua
 ```
 
+CSS
+```html
+<link rel="stylesheet" href="hayalet_sevgilim.css">
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -252,6 +257,7 @@ Lua:
 - [Lua](./lua/)
 - [SQL](./sql/)
 - [Elixir](./elixir/)
+- [CSS](./css/)
 
 ## Metin Editörleri
 - [Open Office](./ODT)
