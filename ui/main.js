@@ -1,14 +1,4 @@
-import json
-
-
-def sozler():
-    with open("../js/index.json", "r") as f:
-        data = json.load(f)
-
-    return data
-
-def hayalet_sevgilim():
-    return """Ceza mı bu
+const LYRICS = `Ceza mı bu
 Çektiğim çile mi
 Yıllardır tuttuğum nöbet bitmeyecek mi?
 Bir küçük kar tanesi gibiyim
@@ -64,4 +54,17 @@ Bebeğim benim hayalet sevgilim
 Bebeğim benim hayalet sevgilim
 
 Hayalet sevgilim
-Hayalet sevgilim"""
+Hayalet sevgilim`
+
+function main() {
+  const lyrics = document.getElementById("lyrics")
+  let i = -1
+  document.addEventListener("keyup", (e) => {
+    i++
+    const char = LYRICS[i]
+    lyrics.innerHTML += char ?? ""
+    window.scrollTo(0, document.body.scrollHeight)
+  })
+}
+
+document.addEventListener("DOMContentLoaded", () => setTimeout(main, 1000))

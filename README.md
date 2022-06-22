@@ -106,21 +106,28 @@ Shell:
 
 ```bash
 data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json)
-# echo $data
+# echo $data
 ```
 
 Python I:
 
-```py
-cd ./hayalet-sevgilim-sarki-sozleri/py
+```bash
+cd ./py
 python3 program.py
 ```
 
 Python II:
 
-```py
-cd ./hayalet-sevgilim-sarki-sozleri/python
+```bash
+cd ./python
 make || make run || uvicorn main:app --reload
+```
+
+Swift:
+
+```bash
+cd ./hayalet-sevgilim-sarki-sozleri/swift/HayaletSevgilim-CommandLine
+swift run
 ```
 
 PHP:
@@ -133,6 +140,47 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
+GO I:
+
+```go
+
+import "github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/go/hayaletsevgilim"
+
+hayaletsevgilim.Print();
+```
+
+PowerShell:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json";
+
+echo $result.Content;
+```
+
+Rust I:
+
+```bash
+cd ./rust
+cargo build
+cargo run
+```
+
+Rust II:
+
+```bash
+cd ./rs
+cargo build
+cargo run
+```
+
+C:
+
+```c
+gcc main.c
+
+./a.out
+```
 
 Dart:
 
@@ -143,7 +191,6 @@ Dart:
 
 ```
 
-
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -153,6 +200,12 @@ Dart:
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
+- [Go I](./go/)
+- [Go II](./golang/)
+- [Rust I](./rust/)
+- [Rust II](./rs/)
+- [Ruby](./ruby/)
+- [C](./c/)
 - [Dart](./dart/)
 
 ## Yol Haritası
