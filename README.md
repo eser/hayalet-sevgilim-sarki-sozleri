@@ -174,6 +174,14 @@ cargo build
 cargo run
 ```
 
+C:
+
+```c
+gcc main.c
+
+./a.out
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -188,6 +196,7 @@ cargo run
 - [Rust I](./rust/)
 - [Rust II](./rs/)
 - [Ruby](./ruby/)
+- [C](./c/)
 
 ## Yol Haritası
 
