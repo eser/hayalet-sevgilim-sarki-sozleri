@@ -229,13 +229,28 @@ elixir main.exs
 Lua:
 
 ```bash
-  lua ./lua/main.lua
+lua ./lua/main.lua
 ```
 
-CSS
+CSS:
+
 ```html
 <link rel="stylesheet" href="hayalet_sevgilim.css">
 ```
+
+Brainfuck:
+
+```bash
+brainfuck ./brainfuck/main.bf
+```
+
+Bash:
+
+```bash
+chmod +x ./bash/hayalet_sevgilim.sh
+./bash/hayalet_sevgilim.sh
+```
+
 
 ## Programlama Dilleri
 
@@ -258,6 +273,8 @@ CSS
 - [SQL](./sql/)
 - [Elixir](./elixir/)
 - [CSS](./css/)
+- [Brainfuck](./brainfuck/)
+- [Bash](./bash)
 
 ## Metin Editörleri
 - [Open Office](./ODT)
