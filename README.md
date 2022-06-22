@@ -112,14 +112,14 @@ data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki
 Python I:
 
 ```py
-cd ./hayalet-sevgilim-sarki-sozleri/py
+cd ./py
 python3 program.py
 ```
 
 Python II:
 
 ```py
-cd ./hayalet-sevgilim-sarki-sozleri/python
+cd ./python
 make || make run || uvicorn main:app --reload
 ```
 
@@ -133,10 +133,19 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
+PowerShell:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+$result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json";
+
+echo $result.Content;
+```
+
 Rust:
 
 ```rust
-cd ./hayalet-sevgilim-sarki-sozleri/rust
+cd ./rust
 cargo build
 cargo run
 ```
