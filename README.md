@@ -79,7 +79,7 @@ onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle
 
 ## Programatik Kullanım
 
-Deno / Web / ES Modules:
+Deno / Web / ES / Shell Modules:
 
 ```js
 import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/index.json" assert {
@@ -91,7 +91,7 @@ veya
 
 ```js
 import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/mod.js";
-```
+```https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/index.json
 
 Node.js:
 
@@ -99,13 +99,14 @@ Node.js:
 const data = require("./index.json");
 ```
 
+Shell:
+```bash
+data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/index.json)
+```
+
 ## Yol Haritası
 
 - Python için de bir modül oluşturulabilir.
-
-## Programlama Dilleri
-
-- [CSharp](./csharp/)
 
 ## Lisans
 
