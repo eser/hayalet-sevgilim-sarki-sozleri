@@ -142,6 +142,7 @@ HayaletSevgilim::print();
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
+- [Ruby](./ruby/)
 
 ## Yol Haritası
 
