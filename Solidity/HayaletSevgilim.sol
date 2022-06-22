@@ -1,0 +1,9 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity >=0.7.0 <0.9.0;
+
+contract HayaletSevgilim {
+    function renderHayaletSevgilim() public pure returns (string) {
+        return "Ceza mı bu<br> Çektiğim çile mi?<br> Yıllardır tuttuğum nöbet bitmeyecek mi?<br> Bir küçük kar tanesi gibiyim<br> Avucunda eriyen dön bebeğim<br> <br> Gözyaşlarını görürsem<br> Erir kanatlarım<br> Uçamam rüyalarında yanına<br> Sonsuzluk senle başladı<br> O küçük dünyamda<br> Unutma gittiğinde yarım kaldım<br> <br>Çöllerdeyim yanıyorum<br> Kutuptayım üşüyorum<br> Ceza benim çekiyorum ne olur dön<br> Uzanıyorum tutamıyorum<br>Özlüyorum ağlıyorum<br> Yasak mısın anlamıyorum ne olur dön<br> <br> Sevmesen de beni özledim sesini<br> Git desem de yine gitmesen<br> Yıllardır çektiğim bu hasret mi çile mi?<br> Haram mısın bana bi' bilsem<br> <br> Sevmesen de beni özledim sesini<br> Git desem de yine gitmesen<br> Yıllardır çektiğim bu hasret mi çile mi?<br> Haram mısın bana bi' bilsem<br> <br> Bebeğim benim hayalet sevgilim<br> Bebeğim benim hayalet sevgilim<br> <br> Hayalet sevgilim<br> <br>Çöllerdeyim yanıyorum<br> Kutuptayım üşüyorum<br> Ceza benim çekiyorum ne olur dön<br> Uzanıyorum tutamıyorum<br>Özlüyorum ağlıyorum<br> Yasak mısın anlamıyorum ne olur dön<br> <br> Sevmesen de beni özledim sesini<br> Git desem de yine gitmesen<br> Yıllardır çektiğim bu hasret mi çile mi?<br> Haram mısın bana bi' bilsem<br> <br> Sevmesen de beni özledim sesini<br> Git desem de yine gitmesen<br> Yıllardır çektiğim bu hasret mi çile mi?<br> Haram mısın bana bi' bilsem<br> <br> Bebeğim benim hayalet sevgilim<br> Bebeğim benim hayalet sevgilim<br> <br> Hayalet sevgilim<br> Hayalet sevgilim";
+    }
+}
