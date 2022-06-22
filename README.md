@@ -189,11 +189,19 @@ go run .
 ```
 
 C:
-
+ 
 ```bash
 gcc main.c
 
 ./a.out
+```
+
+Asm:
+
+```bash
+cd  ./Asm
+Make
+./hs
 ```
 
 Dart:
@@ -219,6 +227,7 @@ Dart:
 - [Rust II](./rs/)
 - [Ruby](./ruby/)
 - [C](./c/)
+- [Asm](./Asm/)
 - [Dart](./dart/)
 
 ## Yol Haritası
