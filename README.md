@@ -270,6 +270,13 @@ Emacs-lis:
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
 
+Erlang:
+```bash
+cd ./erlang
+erl
+c(hayalet_sevgilim).
+hayalet_sevgilim:print().
+```
 
 ## Programlama Dilleri
 
@@ -297,6 +304,7 @@ emacs --load ./emacs-lisp/hayalet_sevgilim.el
 - [Bash](./bash)
 - [Perl](./perl/)
 - [Emacs Lisp](./emacs-lisp/)
+- [Erlang](./erlang/)
 
 
 ## Kütüphaneler
