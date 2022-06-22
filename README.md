@@ -218,7 +218,7 @@ Dart:
 - [Rust I](./rust/)
 - [Rust II](./rs/)
 - [Ruby](./ruby/)
-- [C](./c/)
+- [C](./C/)
 - [Dart](./dart/)
 
 ## Yol Haritası
