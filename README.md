@@ -270,6 +270,13 @@ Emacs-lis:
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
 
+Erlang:
+```bash
+cd ./erlang
+erl
+c(hayalet_sevgilim).
+hayalet_sevgilim:print().
+```
 
 Nginx Web Server in Docker Container:
 
@@ -306,6 +313,7 @@ docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki
 - [Bash](./bash)
 - [Perl](./perl/)
 - [Emacs Lisp](./emacs-lisp/)
+- [Erlang](./erlang/)
 
 
 ## Kütüphaneler
