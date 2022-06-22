@@ -269,6 +269,16 @@ Emacs-lis:
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
 
+
+Erlang:
+
+```bash
+cd ./erlang
+erl
+c(hayalet_sevgilim).
+hayalet_sevgilim:print().
+```
+
 Nginx Web Server in Docker Container:
 
 ```bash
@@ -277,6 +287,7 @@ docker build -t hayalet-sevgilim-sarki-sozleri .
 docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki-sozleri
 ```
 
+
 iOS App:
 
 <img src="./screenshots/ios/ios3.png" width="300" />
@@ -284,6 +295,12 @@ iOS App:
 <img src="./screenshots/ios/ios2.png" width="300" />
 ```
 OPEN XCODE AND JUST RUN
+```
+
+Haskell:
+
+```bash
+nix run
 ```
 
 ## Programlama Dilleri
@@ -313,12 +330,19 @@ OPEN XCODE AND JUST RUN
 - [Perl](./perl/)
 - [Emacs Lisp](./emacs-lisp/)
 - [iOS/Swift](./ios/)
+- [Erlang](./erlang/)
+- [Haskell](./haskell/)
+
 
 ## Kütüphaneler
 
 - [AngularJS](./library/angularjs/)
 
 ## Metin Editörleri
+
+- [Open Office](./ODT)
+- [YAML](./yaml)
+
 
 - [Open Office](./ODT)
 
