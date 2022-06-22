@@ -237,6 +237,12 @@ Brainfuck:
 ```bash
   brainfuck ./brainfuck/main.bf
 ```
+
+Perl:
+
+```bash
+  perl ./perl/hayalet_sevgilim.pl
+```
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -258,6 +264,7 @@ Brainfuck:
 - [SQL](./sql/)
 - [Elixir](./elixir/)
 - [Brainfuck](./brainfuck/)
+- [Perl](./perl/)
 
 ## Metin Editörleri
 - [Open Office](./ODT)
