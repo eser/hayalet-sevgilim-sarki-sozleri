@@ -231,6 +231,13 @@ Lua:
 ```bash
   lua ./lua/main.lua
 ```
+Assembly:  
+
+```bash
+nasm -f win32 ./Assembly/hayaletSevgilim.asm -o test.o
+ld test.o -o assembly.exe 
+
+```
 
 ## Programlama Dilleri
 
@@ -252,6 +259,7 @@ Lua:
 - [Lua](./lua/)
 - [SQL](./sql/)
 - [Elixir](./elixir/)
+- [Elixir](./Assembly/)
 
 ## Metin Editörleri
 - [Open Office](./ODT)
