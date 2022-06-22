@@ -82,7 +82,7 @@ onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle
 Deno / Web / ES Modules:
 
 ```js
-import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/index.json" assert {
+import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert {
   type: "json",
 };
 ```
@@ -90,7 +90,7 @@ import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim
 veya
 
 ```js
-import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/mod.js";
+import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/mod.js";
 ```
 
 Node.js:
@@ -99,13 +99,14 @@ Node.js:
 const data = require("./index.json");
 ```
 
-## Yol Haritası
-
-- Python için de bir modül oluşturulabilir.
-
 ## Programlama Dilleri
 
+- [JavaScript](./js/)
 - [CSharp](./csharp/)
+
+## Yol Haritası
+
+- Python, PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
 
 ## Lisans
 
