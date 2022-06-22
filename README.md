@@ -323,6 +323,7 @@ nix run
 - [Emacs Lisp](./emacs-lisp/)
 - [Erlang](./erlang/)
 - [Haskell](./haskell/)
+- [LOLCODE](./lolcode/)
 
 
 ## Kütüphaneler
