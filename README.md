@@ -193,7 +193,7 @@ go run .
 ```
 
 C:
- 
+
 ```bash
 gcc main.c
 
@@ -265,6 +265,11 @@ Perl:
 perl ./perl/hayalet_sevgilim.pl
 ```
 
+Emacs-lis:
+```bash
+emacs --load ./emacs-lisp/hayalet_sevgilim.el
+```
+
 
 ## Programlama Dilleri
 
@@ -291,6 +296,7 @@ perl ./perl/hayalet_sevgilim.pl
 - [Brainfuck](./brainfuck/)
 - [Bash](./bash)
 - [Perl](./perl/)
+- [Emacs Lisp](./emacs-lisp/)
 
 
 ## Kütüphaneler
