@@ -193,7 +193,7 @@ go run .
 ```
 
 C:
- 
+
 ```bash
 gcc main.c
 
@@ -265,6 +265,10 @@ Perl:
 perl ./perl/hayalet_sevgilim.pl
 ```
 
+Haskell:
+```bash
+nix run
+```
 
 ## Programlama Dilleri
 
@@ -291,6 +295,7 @@ perl ./perl/hayalet_sevgilim.pl
 - [Brainfuck](./brainfuck/)
 - [Bash](./bash)
 - [Perl](./perl/)
+- [Haskell](./haskell/)
 
 
 ## Kütüphaneler
