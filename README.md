@@ -133,6 +133,15 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
+C:
+
+```c
+gcc main.c
+
+./a.out
+```
+
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -142,6 +151,7 @@ HayaletSevgilim::print();
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
+- [C](./c/)
 
 ## Yol Haritası
 
