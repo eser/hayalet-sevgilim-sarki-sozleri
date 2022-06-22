@@ -174,9 +174,23 @@ cargo build
 cargo run
 ```
 
+GO I:
+
+```bash
+cd ./go
+go run .
+```
+
+GO II:
+
+```bash
+cd ./golang
+go run .
+```
+
 C:
 
-```c
+```bash
 gcc main.c
 
 ./a.out
@@ -188,7 +202,6 @@ Dart:
   import 'HayaletSevgilim.dart';
 
   HayaletSevgilim.printLyrics();
-
 ```
 
 ## Programlama Dilleri
