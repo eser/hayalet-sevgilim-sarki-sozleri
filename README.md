@@ -112,8 +112,8 @@ data=$(curl https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki
 Python:
 
 ```py
- cd ./hayalet-sevgilim-sarki-sozleri/py
- python3 program.py
+cd ./hayalet-sevgilim-sarki-sozleri/py
+python3 program.py
 ```
 
 ## Programlama Dilleri
@@ -121,7 +121,8 @@ Python:
 - [JavaScript](./js/)
 - [CSharp](./csharp/)
 - [Shell Script](README.md)
-- [Python](./py/)
+- [Python](./py/) I
+- [Python](./python/) II
 - [Swift](./swift/)
 
 ## Yol Haritası
