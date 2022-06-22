@@ -1,0 +1,12 @@
+{
+    "name": "eserozvataf/hayalet-sevgilim-sarki-sozleri",
+    "description": "Baktım GitHub \"popülerlik\" kriterleri koymaya başlamış, bunlar üzerinden kullanıcıları ve katkıları ayrımlamaya başlamış. O halde ben de popülizmin dibine vurmak istedim. Buyrun, Sözleri İrem Aydın'a ait olan Hayalet Sevgilim. Bugüne kadar topluluk yararını gözettiğini düşündüğüm GitHub, bu repoyu starlarsanız belki seneye beni de sevgili popüler kullanıcılar listesine alır ￼ Lütfen alsın çünkü.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eserozvataf\\HayaletSevgilimSarkiSozleri\\": "php/src/"
+        }
+    },
+    "require": {}
+}
