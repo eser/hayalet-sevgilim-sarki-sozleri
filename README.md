@@ -142,10 +142,9 @@ $result = Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent
 echo $result.Content;
 ```
 
-Rust:
+Rust && Rust II:
 
 ```rust
-cd ./rust
 cargo build
 cargo run
 ```
@@ -159,6 +158,8 @@ cargo run
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
+- [Rust](./rust/)
+- [Rust II](./rs/)
 
 ## Yol Haritası
 
