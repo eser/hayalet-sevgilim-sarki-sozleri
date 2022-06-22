@@ -226,6 +226,12 @@ cd ./elixir
 elixir main.exs
 ```
 
+Lua:
+
+```bash
+  lua ./lua/main.lua
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -243,6 +249,7 @@ elixir main.exs
 - [C](./C/)
 - [Dart](./dart/)
 - [Java](./java/)
+- [Lua](./lua/)
 - [SQL](./sql/)
 - [Elixir](./elixir/)
 
