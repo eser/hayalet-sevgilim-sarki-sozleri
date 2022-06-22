@@ -1,0 +1,111 @@
+body::after {
+  display: block;
+  white-space: pre-wrap;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  z-index: 9999999;
+  font-family: cursive;
+  font-size: 18px;
+  background-color: yellow;
+  text-align: center;
+  content:
+  "\
+  Ceza mı bu\A\
+  Çektiğim çile mi\A\
+  Yıllardır tuttuğum nöbet bitmeyecek mi?\A\
+  Bir küçük kar tanesi gibiyim\A\
+  Avucunda eriyen dön bebeğim\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Gözyaşlarını görürsem\A\
+  Erir kanatlarım\A\
+  Uçamam rüyalarında yanına\A\
+  Sonsuzluk senle başladı\A\
+  O küçük dünyamda\A\
+  Unutma gittiğinde yarım kaldım\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Çöllerdeyim yanıyorum\A\
+  Kutuptayım üşüyorum\A\
+  Ceza benim çekiyorum ne olur dön\A\
+  Uzanıyorum tutamıyorum\A\
+  Özlüyorum ağlıyorum\A\
+  Yasak mısın anlamıyorum ne olur dön\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Sevmesen de beni özledim sesini\A\
+  Git desem de yine gitmesen\A\
+  Yıllardır çektiğim bu hasret mi çile mi?\A\
+  Haram mısın bana bi' bilsem\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Sevmesen de beni özledim sesini\A\
+  Git desem de yine gitmesen\A\
+  Yıllardır çektiğim bu hasret mi çile mi?\A\
+  Haram mısın bana bi' bilsem\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Bebeğim benim, hayalet sevgilim\A\
+  Bebeğim benim, hayalet sevgilim\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Hayalet sevgilim\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Çöllerdeyim yanıyorum\A\
+  Kutuptayım üşüyorum\A\
+  Ceza benim çekiyorum ne olur dön\A\
+  Uzanıyorum tutamıyorum\A\
+  Özlüyorum ağlıyorum\A\
+  Yasak mısın anlamıyorum ne olur dön\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Sevmesen de beni özledim sesini\A\
+  Git desem de yine gitmesen\A\
+  Yıllardır çektiğim bu hasret mi çile mi?\A\
+  Haram mısın bana bi' bilsem\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Sevmesen de beni özledim sesini\A\
+  Git desem de yine gitmesen\A\
+  Yıllardır çektiğim bu hasret mi çile mi?\A\
+  Haram mısın bana bi' bilsem\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Bebeğim benim hayalet sevgilim\A\
+  Bebeğim benim hayalet sevgilim\A\
+  \A\
+  **•.¸♥¸.•*´💖 *•.¸♥¸.•*´*\A\
+  \A\
+  Hayalet sevgilim\A\
+  Hayalet sevgilim\A\
+  \A\
+  ★ ° . *　　　°　.　°☆ 　. * ● ¸ \A\
+  . 　　　★ 　° :. ★　 * • ○ ° ★　 \A\
+  .　 * 　.　 　　　　　. 　 \A\
+  ° 　. ● . ★ ° . *　　　°　.　°☆ \A\
+  　. * ● ¸ . 　　　★ 　° :●. 　 * \A\
+  • ○ ° ★　 .　 * 　.　 　　　　　.\A\
+   　 ° 　. ● . ★ ° . *　　　°　.　\A\
+   °☆ 　. * ● ¸ . 　　　★ 　\A\
+  ° :. 　 * • ○ ° ★　 .　 * 　.　 \A\
+  　★　　　　. 　 ° 　.  . 　    ★　 　　\A\
+  ° °☆ 　¸. ● . 　　★　★ \A\
+  ° . *　　　°　.　°☆ 　. * ● ¸ . \A\
+  ★ ° . *　　　°　.　°☆ 　. * ● ¸ \A\
+  . 　　　★ 　° :. 　 * • ○ ° ★　 \A\
+  .　 * 　.　 　★     ° :.☆\A\
+  ";
+}
