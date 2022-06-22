@@ -133,6 +133,15 @@ use HayaletSevgilim\HayaletSevgilim;
 HayaletSevgilim::print();
 ```
 
+PHP:
+
+```go
+
+import "github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/go/hayaletsevgilim"
+
+hayaletsevgilim.Print();
+```
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -142,6 +151,7 @@ HayaletSevgilim::print();
 - [Python II](./python/)
 - [Swift](./swift/)
 - [PHP](./php/)
+- [Go](./go/)
 
 ## Yol Haritası
 
