@@ -314,6 +314,7 @@ docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki
 
 ## Metin Editörleri
 - [Open Office](./ODT)
+- [YAML](./yaml)
 
 
 ## Yol Haritası
