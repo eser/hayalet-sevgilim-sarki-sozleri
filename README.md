@@ -293,6 +293,10 @@ perl ./perl/hayalet_sevgilim.pl
 - [Perl](./perl/)
 
 
+## Kütüphaneler
+- [AngularJS](./library/angularjs/)
+
+
 ## Metin Editörleri
 - [Open Office](./ODT)
 
