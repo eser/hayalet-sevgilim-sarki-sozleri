@@ -235,6 +235,7 @@ npm run start
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
+- [TypeScript](./ts/)
 - [CSharp](./csharp/)
 - [Shell Script](README.md)
 - [Python I](./py/)
