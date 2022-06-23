@@ -280,10 +280,17 @@ c(hayalet_sevgilim).
 hayalet_sevgilim:print().
 ```
 
-Scala:
+Scala2:
 
 ```bash
 cd ./scala
+scalac main.scala
+```
+
+Scala3:
+
+```bash
+cd ./scala3
 scalac main.scala
 ```
 
@@ -344,6 +351,7 @@ nix run
 - [Swift](./swift/)
 - [TypeScript](./ts/)
 - [Scala](./scala/)
+- [Scala3](./scala3/)
 
 ## Kütüphaneler
 
