@@ -1,6 +1,5 @@
 object HayaletSevgilim {
-    def main(args: Array[String]) = {
-        
+    def main(args: Array[String]): Unit = {
         val iremsLyrics = Vector(
           "Ceza mı bu",
           "Çektiğim çile mi",
@@ -61,6 +60,7 @@ object HayaletSevgilim {
           "Hayalet sevgilim"
         )
 
-        for (line <- iremsLyrics) println(line)
+        iremsLyrics.foreach(println)
+        
     }
 }
