@@ -1,113 +1,57 @@
-Ceza mı bu?
+Ceza mı bu?  
+Çektiğim çile mi  
+Yıllardır tuttuğum nöbet bitmeyecek mi?  
+Bir küçük kar tanesi gibiyim  
+Avucunda eriyen dön bebeğim  
 
-Çektiğim çile mi
+Gözyaşlarını görürsem  
+Erir kanatlarım  
+Uçamam rüyalarında yanına  
+Sonsuzluk senle başladı  
+O küçük dünyamda  
+Unutma gittiğinde yarım kaldım  
 
-Yıllardır tuttuğum nöbet bitmeyecek mi?
+Çöllerdeyim, yanıyorum  
+Kutuptayım, üşüyorum  
+Ceza benim çekiyorum, ne olur dön  
+Uzanıyorum, tutamıyorum  
+Özlüyorum, ağlıyorum  
+Yasak mısın anlamıyorum, ne olur dön  
 
-Bir küçük kar tanesi gibiyim
+Sevmesen de beni özledim sesini  
+Git desem de yine gitmesen  
+Yıllardır çektiğim bu hasret mi çile mi?  
+Haram mısın bana bi' bilsem  
 
-Avucunda eriyen dön bebeğim
+Sevmesen de beni özledim sesini  
+Git desem de yine gitmesen  
+Yıllardır çektiğim bu hasret mi çile mi?  
+Haram mısın bana bi' bilsem  
 
----
+Bebeğim benim, hayalet sevgilim  
+Bebeğim benim, hayalet sevgilim  
 
-Gözyaşlarını görürsem
+Hayalet sevgilim  
 
-Erir kanatlarım
+Çöllerdeyim, yanıyorum  
+Kutuptayım, üşüyorum  
+Ceza benim çekiyorum, ne olur dön  
+Uzanıyorum, tutamıyorum  
+Özlüyorum, ağlıyorum  
+Yasak mısın anlamıyorum, ne olur dön  
 
-Uçamam rüyalarında yanına
+Sevmesen de beni özledim sesini  
+Git desem de yine gitmesen  
+Yıllardır çektiğim bu hasret mi çile mi?  
+Haram mısın bana bi' bilsem  
 
-Sonsuzluk senle başladı
+Sevmesen de beni özledim sesini  
+Git desem de yine gitmesen  
+Yıllardır çektiğim bu hasret mi çile mi?  
+Haram mısın bana bi' bilsem  
 
-O küçük dünyamda
+Bebeğim benim, hayalet sevgilim  
+Bebeğim benim, hayalet sevgilim  
 
-Unutma gittiğinde yarım kaldım
-
----
-
-Çöllerdeyim, yanıyorum
-
-Kutuptayım, üşüyorum
-
-Ceza benim çekiyorum, ne olur dön
-
-Uzanıyorum, tutamıyorum
-
-Özlüyorum, ağlıyorum
-
-Yasak mısın anlamıyorum, ne olur dön
-
----
-
-Sevmesen de beni özledim sesini
-
-Git desem de yine gitmesen
-
-Yıllardır çektiğim bu hasret mi çile mi?
-
-Haram mısın bana bi' bilsem
-
----
-
-Sevmesen de beni özledim sesini
-
-Git desem de yine gitmesen
-
-Yıllardır çektiğim bu hasret mi çile mi?
-
-Haram mısın bana bi' bilsem
-
----
-
-Bebeğim benim, hayalet sevgilim
-
-Bebeğim benim, hayalet sevgilim
-
----
-
-Hayalet sevgilim
-
----
-
-Çöllerdeyim, yanıyorum
-
-Kutuptayım, üşüyorum
-
-Ceza benim çekiyorum, ne olur dön
-
-Uzanıyorum, tutamıyorum
-
-Özlüyorum, ağlıyorum
-
-Yasak mısın anlamıyorum, ne olur dön
-
----
-
-Sevmesen de beni özledim sesini
-
-Git desem de yine gitmesen
-
-Yıllardır çektiğim bu hasret mi çile mi?
-
-Haram mısın bana bi' bilsem
-
----
-
-Sevmesen de beni özledim sesini
-
-Git desem de yine gitmesen
-
-Yıllardır çektiğim bu hasret mi çile mi?
-
-Haram mısın bana bi' bilsem
-
----
-
-Bebeğim benim, hayalet sevgilim
-
-Bebeğim benim, hayalet sevgilim
-
----
-
-Hayalet sevgilim
-
+Hayalet sevgilim  
 Hayalet sevgilim
