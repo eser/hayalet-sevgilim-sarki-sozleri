@@ -306,7 +306,7 @@ docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki
 - [Bash](./bash)
 - [Perl](./perl/)
 - [Emacs Lisp](./emacs-lisp/)
-- [PowerShell](./powershell/)
+
 
 
 ## Kütüphaneler
