@@ -336,6 +336,7 @@ nix run
 - [SQL](./sql/)
 - [Swift](./swift/)
 - [TypeScript](./ts/)
+- [Scala](./scala/)
 
 ## Kütüphaneler
 
