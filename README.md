@@ -193,7 +193,7 @@ go run .
 ```
 
 C:
- 
+
 ```bash
 gcc main.c
 
@@ -237,14 +237,49 @@ elixir main.exs
 Lua:
 
 ```bash
-  lua ./lua/main.lua
+lua ./lua/main.lua
+```
+
+CSS:
+
+```html
+<link rel="stylesheet" href="hayalet_sevgilim.css">
 ```
 
 Brainfuck:
 
 ```bash
-  brainfuck ./brainfuck/main.bf
+brainfuck ./brainfuck/main.bf
 ```
+
+Bash:
+
+```bash
+chmod +x ./bash/hayalet_sevgilim.sh
+./bash/hayalet_sevgilim.sh
+```
+
+Perl:
+
+```bash
+perl ./perl/hayalet_sevgilim.pl
+```
+
+Emacs-lis:
+```bash
+emacs --load ./emacs-lisp/hayalet_sevgilim.el
+```
+
+
+Nginx Web Server in Docker Container:
+
+```bash
+docker build -t hayalet-sevgilim-sarki-sozleri .
+..
+docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki-sozleri
+```
+
+
 ## Programlama Dilleri
 
 - [JavaScript](./js/)
@@ -266,14 +301,25 @@ Brainfuck:
 - [Lua](./lua/)
 - [SQL](./sql/)
 - [Elixir](./elixir/)
+- [CSS](./css/)
 - [Brainfuck](./brainfuck/)
+- [Bash](./bash)
+- [Perl](./perl/)
+- [Emacs Lisp](./emacs-lisp/)
+
+
+## Kütüphaneler
+- [AngularJS](./library/angularjs/)
+
 
 ## Metin Editörleri
 - [Open Office](./ODT)
 
+
 ## Yol Haritası
 
 - PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
+
 
 ## Lisans
 
