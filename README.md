@@ -280,6 +280,13 @@ c(hayalet_sevgilim).
 hayalet_sevgilim:print().
 ```
 
+Scala:
+
+```bash
+cd ./scala
+scalac main.scala
+```
+
 Nginx Web Server in Docker Container:
 
 ```bash
@@ -336,6 +343,7 @@ nix run
 - [SQL](./sql/)
 - [Swift](./swift/)
 - [TypeScript](./ts/)
+- [Scala](./scala/)
 
 ## Kütüphaneler
 
