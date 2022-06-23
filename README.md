@@ -356,6 +356,7 @@ nix run
 ## Kütüphaneler
 
 - [AngularJS](./library/angularjs/)
+- [Gatsby](./gatsby/)
 
 ## Farklı Formatlar
 
