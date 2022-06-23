@@ -352,6 +352,7 @@ nix run
 - [TypeScript](./ts/)
 - [Scala](./scala/)
 - [Scala3](./scala3/)
+- [PowerShell](./powerShell/)
 
 
 ## Kütüphaneler
