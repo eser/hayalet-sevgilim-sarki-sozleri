@@ -363,6 +363,7 @@ nix run
 - [HTML](./html/)
 - [JSON](./js/)
 - [Open Office](./ODT/)
+- [sile](./sile/)
 - [SVG](./svg/)
 - [tex](./tex/)
 - [tree](./tree/)
