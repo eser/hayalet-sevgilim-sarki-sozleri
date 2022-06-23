@@ -52,7 +52,7 @@ lyrics:	db  "Ceza mı bu", 10,
         db  "Yıllardır çektiğim bu hasret mi çile mi?", 10
         db  "Haram mısın bana bi' bilsem", 10, 10
         db  "Hayalet sevgilim", 10
-        db  "Hayalet sevgilim", 10, 10
+        db  "Hayalet sevgilim", 10, 10, 0
 
 section .text
 global _start
