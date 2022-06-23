@@ -66,7 +66,8 @@ Hayalet sevgilim
 
 Baktım GitHub "popülerlik" kriterleri koymaya başlamış, bunlar üzerinden
 kullanıcıları ve katkıları ayrımlamaya başlamış. O halde ben de popülizmin
-dibine vurmak istedim. Buyrun, Sözleri İrem Aydın'a ait olan Hayalet Sevgilim.
+dibine vurmak istedim. Buyrun, Sözleri
+[İrem Aydın](https://twitter.com/iremyagciaydin)'a ait olan Hayalet Sevgilim.
 Bugüne kadar topluluk yararını gözettiğini düşündüğüm GitHub, bu repoyu
 starlarsanız belki seneye beni de sevgili popüler kullanıcılar listesine alır 🙏
 Lütfen alsın çünkü.
@@ -82,7 +83,9 @@ onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle
 Deno / Web / ES Modules:
 
 ```js
-import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert { type: "json" };
+import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert {
+  type: "json",
+};
 // console.log(data);
 ```
 
@@ -141,7 +144,6 @@ HayaletSevgilim::print();
 GO I:
 
 ```go
-
 import "github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/go/hayaletsevgilim"
 
 hayaletsevgilim.Print();
@@ -269,7 +271,6 @@ Emacs-lis:
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
 
-
 Erlang:
 
 ```bash
@@ -286,7 +287,6 @@ docker build -t hayalet-sevgilim-sarki-sozleri .
 ..
 docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki-sozleri
 ```
-
 
 iOS App:
 
@@ -305,47 +305,58 @@ nix run
 
 ## Programlama Dilleri
 
-- [JavaScript](./js/)
-- [CSharp](./csharp/)
-- [Shell Script](README.md)
-- [Python I](./py/)
-- [Python II](./python/)
-- [Swift](./swift/)
-- [PHP](./php/)
+- [Asm](./Asm/)
+- [Bash](./bash)
+- [Brainfuck](./brainfuck/)
+- [C](./C/)
+- [C++](./cpp/)
+- [C#](./csharp/)
+- [CSS](./css/)
+- [Dart](./dart/)
+- [Elixir](./elixir/)
+- [Emacs Lisp](./emacs-lisp/)
+- [Erlang](./erlang/)
 - [Go I](./go/)
 - [Go II](./golang/)
+- [Haskell](./haskell/)
+- [iOS/Swift](./ios/)
+- [Java](./java/)
+- [JavaScript](./js/)
+- [LOLCODE](./lolcode/)
+- [Lua](./lua/)
+- [Perl](./perl/)
+- [PHP](./php/)
+- [Python I](./py/)
+- [Python II](./python/)
+- [Ruby](./ruby/)
 - [Rust I](./rust/)
 - [Rust II](./rs/)
-- [Ruby](./ruby/)
-- [C](./C/)
-- [Asm](./Asm/)
-- [Dart](./dart/)
-- [Java](./java/)
-- [Lua](./lua/)
+- [Solidity](./sol/)
+- [Shell Script](README.md)
 - [SQL](./sql/)
-- [Elixir](./elixir/)
-- [CSS](./css/)
-- [Brainfuck](./brainfuck/)
-- [Bash](./bash)
-- [Perl](./perl/)
-- [Emacs Lisp](./emacs-lisp/)
-- [iOS/Swift](./ios/)
-- [Erlang](./erlang/)
-- [Haskell](./haskell/)
-- [LOLCODE](./lolcode/)
-
+- [Swift](./swift/)
+- [TypeScript](./ts/)
 
 ## Kütüphaneler
 
 - [AngularJS](./library/angularjs/)
 
-## Metin Editörleri
+## Farklı Formatlar
 
-- [Open Office](./ODT)
-- [YAML](./yaml)
+- [Binary](./binaryToAscii/)
+- [HTML](./html/)
+- [JSON](./js/)
+- [Open Office](./ODT/)
+- [SVG](./svg/)
+- [tex](./tex/)
+- [tree](./tree/)
+- [XML](./xml/)
+- [YAML](./yaml/)
 
+## Arabirimler
 
-- [Open Office](./ODT)
+- [ios](./ios/)
+- [ui](./ui/)
 
 ## Yol Haritası
 
