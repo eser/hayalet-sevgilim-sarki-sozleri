@@ -204,7 +204,7 @@ Asm:
 
 ```bash
 cd  ./Asm
-Make
+make
 ./hs
 ```
 
