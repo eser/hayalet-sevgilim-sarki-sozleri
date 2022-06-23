@@ -82,9 +82,7 @@ onu sizler için 100 star'dan sonra yapacağım. Çünkü klik ekonomisi böyle
 Deno / Web / ES Modules:
 
 ```js
-import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert {
-  type: "json",
-};
+import data from "https://raw.githubusercontent.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/master/js/index.json" assert { type: "json" };
 // console.log(data);
 ```
 
@@ -243,7 +241,7 @@ lua ./lua/main.lua
 CSS:
 
 ```html
-<link rel="stylesheet" href="hayalet_sevgilim.css">
+<link rel="stylesheet" href="hayalet_sevgilim.css" />
 ```
 
 Brainfuck:
@@ -271,6 +269,7 @@ Emacs-lis:
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
 
+
 Erlang:
 
 ```bash
@@ -288,12 +287,21 @@ docker build -t hayalet-sevgilim-sarki-sozleri .
 docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki-sozleri
 ```
 
+
+iOS App:
+
+<img src="./screenshots/ios/ios3.png" width="300" />
+<img src="./screenshots/ios/ios1.png" width="300" />
+<img src="./screenshots/ios/ios2.png" width="300" />
+```
+OPEN XCODE AND JUST RUN
+```
+
 Haskell:
 
 ```bash
 nix run
 ```
-
 
 ## Programlama Dilleri
 
@@ -321,24 +329,27 @@ nix run
 - [Bash](./bash)
 - [Perl](./perl/)
 - [Emacs Lisp](./emacs-lisp/)
+- [iOS/Swift](./ios/)
 - [Erlang](./erlang/)
 - [Haskell](./haskell/)
 - [LOLCODE](./lolcode/)
 
 
 ## Kütüphaneler
+
 - [AngularJS](./library/angularjs/)
 
-
 ## Metin Editörleri
+
 - [Open Office](./ODT)
 - [YAML](./yaml)
 
 
+- [Open Office](./ODT)
+
 ## Yol Haritası
 
 - PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
-
 
 ## Lisans
 
