@@ -66,7 +66,8 @@ Hayalet sevgilim
 
 Baktım GitHub "popülerlik" kriterleri koymaya başlamış, bunlar üzerinden
 kullanıcıları ve katkıları ayrımlamaya başlamış. O halde ben de popülizmin
-dibine vurmak istedim. Buyrun, Sözleri İrem Aydın'a ait olan Hayalet Sevgilim.
+dibine vurmak istedim. Buyrun, Sözleri
+[İrem Aydın](https://twitter.com/iremyagciaydin)'a ait olan Hayalet Sevgilim.
 Bugüne kadar topluluk yararını gözettiğini düşündüğüm GitHub, bu repoyu
 starlarsanız belki seneye beni de sevgili popüler kullanıcılar listesine alır 🙏
 Lütfen alsın çünkü.
@@ -143,7 +144,6 @@ HayaletSevgilim::print();
 GO I:
 
 ```go
-
 import "github.com/eserozvataf/hayalet-sevgilim-sarki-sozleri/go/hayaletsevgilim"
 
 hayaletsevgilim.Print();
@@ -204,7 +204,7 @@ Asm:
 
 ```bash
 cd  ./Asm
-Make
+make
 ./hs
 ```
 
@@ -243,7 +243,7 @@ lua ./lua/main.lua
 CSS:
 
 ```html
-<link rel="stylesheet" href="hayalet_sevgilim.css">
+<link rel="stylesheet" href="hayalet_sevgilim.css" />
 ```
 
 Brainfuck:
@@ -266,10 +266,33 @@ perl ./perl/hayalet_sevgilim.pl
 ```
 
 Emacs-lis:
+
 ```bash
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
 
+Erlang:
+
+```bash
+cd ./erlang
+erl
+c(hayalet_sevgilim).
+hayalet_sevgilim:print().
+```
+
+Scala2:
+
+```bash
+cd ./scala
+scalac main.scala
+```
+
+Scala3:
+
+```bash
+cd ./scala3
+scalac main.scala
+```
 
 Nginx Web Server in Docker Container:
 
@@ -279,48 +302,83 @@ docker build -t hayalet-sevgilim-sarki-sozleri .
 docker run --name hayalet-sevgilim-sarki-sozleri -p 80:80 hayalet-sevgilim-sarki-sozleri
 ```
 
+iOS App:
+
+<img src="./screenshots/ios/ios3.png" width="300" />
+<img src="./screenshots/ios/ios1.png" width="300" />
+<img src="./screenshots/ios/ios2.png" width="300" />
+```
+OPEN XCODE AND JUST RUN
+```
+
+Haskell:
+
+```bash
+nix run
+```
 
 ## Programlama Dilleri
 
-- [JavaScript](./js/)
-- [CSharp](./csharp/)
-- [Shell Script](README.md)
-- [Python I](./py/)
-- [Python II](./python/)
-- [Swift](./swift/)
-- [PHP](./php/)
+- [Asm](./Asm/)
+- [Bash](./bash)
+- [Brainfuck](./brainfuck/)
+- [C](./C/)
+- [C++](./cpp/)
+- [C#](./csharp/)
+- [CSS](./css/)
+- [Dart](./dart/)
+- [Elixir](./elixir/)
+- [Emacs Lisp](./emacs-lisp/)
+- [Erlang](./erlang/)
 - [Go I](./go/)
 - [Go II](./golang/)
+- [Haskell](./haskell/)
+- [iOS/Swift](./ios/)
+- [Java](./java/)
+- [JavaScript](./js/)
+- [LOLCODE](./lolcode/)
+- [Lua](./lua/)
+- [Perl](./perl/)
+- [PHP](./php/)
+- [Python I](./py/)
+- [Python II](./python/)
+- [Ruby](./ruby/)
 - [Rust I](./rust/)
 - [Rust II](./rs/)
-- [Ruby](./ruby/)
-- [C](./C/)
-- [Asm](./Asm/)
-- [Dart](./dart/)
-- [Java](./java/)
-- [Lua](./lua/)
+- [Solidity](./sol/)
+- [Shell Script](README.md)
 - [SQL](./sql/)
-- [Elixir](./elixir/)
-- [CSS](./css/)
-- [Brainfuck](./brainfuck/)
-- [Bash](./bash)
-- [Perl](./perl/)
-- [Emacs Lisp](./emacs-lisp/)
-
+- [Swift](./swift/)
+- [TypeScript](./ts/)
+- [Scala](./scala/)
+- [Scala3](./scala3/)
 
 
 ## Kütüphaneler
+
 - [AngularJS](./library/angularjs/)
 
+## Farklı Formatlar
 
-## Metin Editörleri
-- [Open Office](./ODT)
+- [Binary](./binaryToAscii/)
+- [HTML](./html/)
+- [JSON](./js/)
+- [Open Office](./ODT/)
+- [sile](./sile/)
+- [SVG](./svg/)
+- [tex](./tex/)
+- [tree](./tree/)
+- [XML](./xml/)
+- [YAML](./yaml/)
 
+## Arabirimler
+
+- [ios](./ios/)
+- [ui](./ui/)
 
 ## Yol Haritası
 
 - PHP, Ruby gibi diğer kalan diller için de modüller oluşturulabilir.
-
 
 ## Lisans
 

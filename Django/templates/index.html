@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayal Et Sevgilim</title>
+    <style>
+        .lyrics {
+            display: flex;
+            justify-content: center;
+            font-size: 15px;
+        }
+    </style>
+
+<body>
+
+    <h2 style="display:flex;justify-content:center">HAYAL ET SEVGİLİM</h2>
+    {%for lyric in lyrics %}
+    <div class="lyrics">{{lyric}}</div>
+    {%endfor%}
+</body>
+
+</html>
