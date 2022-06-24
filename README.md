@@ -204,7 +204,7 @@ Asm:
 
 ```bash
 cd  ./Asm
-Make
+make
 ./hs
 ```
 
@@ -273,6 +273,7 @@ emacs --load ./emacs-lisp/hayalet_sevgilim.el
 
 
 GNUMakefile:
+
 ```bash
 make
 ```
@@ -287,6 +288,19 @@ c(hayalet_sevgilim).
 hayalet_sevgilim:print().
 ```
 
+Scala2:
+
+```bash
+cd ./scala
+scalac main.scala
+```
+
+Scala3:
+
+```bash
+cd ./scala3
+scalac main.scala
+```
 
 Nginx Web Server in Docker Container:
 
@@ -344,6 +358,10 @@ nix run
 - [SQL](./sql/)
 - [Swift](./swift/)
 - [TypeScript](./ts/)
+- [Scala](./scala/)
+- [Scala3](./scala3/)
+- [PowerShell](./powerShell/)
+
 
 ## Kütüphaneler
 
@@ -355,6 +373,7 @@ nix run
 - [HTML](./html/)
 - [JSON](./js/)
 - [Open Office](./ODT/)
+- [sile](./sile/)
 - [SVG](./svg/)
 - [tex](./tex/)
 - [tree](./tree/)

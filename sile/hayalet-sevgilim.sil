@@ -1,0 +1,71 @@
+\begin{document}
+\language[main=tr]
+\set[parameter=document.parskip,value=1ex]
+
+\begin{center}
+\font[size=4em]{Hayalet Sevgilim}
+
+\font[size=2em,style=Italic]{İrem Aydın — 15 Şubat 2006}
+\end{center}
+\bigskip
+
+\begin[right=true]{ragged}
+Ceza mı bu\break
+Çektiğim çile mi\break
+Yıllardır tuttuğum nöbet bitmeyecek mi?\break
+Bir küçük kar tanesi gibiyim\break
+Avucunda eriyen dön bebeğim
+
+Gözyaşlarını görürsem\break
+Erir kanatlarım\break
+Uçamam rüyalarında yanına\break
+Sonsuzluk senle başladı\break
+O küçük dünyamda\break
+Unutma gittiğinde yarım kaldım
+
+Çöllerdeyim yanıyorum\break
+Kutuptayım üşüyorum\break
+Ceza benim çekiyorum ne olur dön\break
+Uzanıyorum tutamıyorum\break
+Özlüyorum ağlıyorum\break
+Yasak mısın anlamıyorum ne olur dön
+
+Sevmesen de beni özledim sesini\break
+Git desem de yine gitmesen\break
+Yıllardır çektiğim bu hasret mi çile mi?\break
+Haram mısın bana bi’ bilsem
+
+Sevmesen de beni özledim sesini\break
+Git desem de yine gitmesen\break
+Yıllardır çektiğim bu hasret mi çile mi?\break
+Haram mısın bana bi’ bilsem
+
+Bebeğim benim, hayalet sevgilim\break
+Bebeğim benim, hayalet sevgilim
+
+Hayalet sevgilim
+
+Çöllerdeyim yanıyorum\break
+Kutuptayım üşüyorum\break
+Ceza benim çekiyorum ne olur dön\break
+Uzanıyorum tutamıyorum\break
+Özlüyorum ağlıyorum\break
+Yasak mısın anlamıyorum ne olur dön
+
+Sevmesen de beni özledim sesini\break
+Git desem de yine gitmesen\break
+Yıllardır çektiğim bu hasret mi çile mi?\break
+Haram mısın bana bi’ bilsem
+
+Sevmesen de beni özledim sesini\break
+Git desem de yine gitmesen\break
+Yıllardır çektiğim bu hasret mi çile mi?\break
+Haram mısın bana bi’ bilsem
+
+Bebeğim benim hayalet sevgilim\break
+Bebeğim benim hayalet sevgilim
+
+Hayalet sevgilim\break
+Hayalet sevgilim
+\end{ragged}
+\end{document}
