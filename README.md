@@ -327,7 +327,6 @@ nix run
 - [C#](./csharp/)
 - [CSS](./css/)
 - [Dart](./dart/)
-- [Dos](./Dos/)
 - [Elixir](./elixir/)
 - [Emacs Lisp](./emacs-lisp/)
 - [Erlang](./erlang/)
