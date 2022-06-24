@@ -271,6 +271,14 @@ Emacs-lis:
 emacs --load ./emacs-lisp/hayalet_sevgilim.el
 ```
 
+
+GNUMakefile:
+
+```bash
+make
+```
+
+
 Erlang:
 
 ```bash
