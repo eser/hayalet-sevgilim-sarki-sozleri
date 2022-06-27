@@ -325,6 +325,14 @@ Haskell:
 nix run
 ```
 
+Angular:
+
+```bash
+cd Angular
+npm i
+npm run start
+```
+
 ## Programlama Dilleri
 
 - [Asm](./Asm/)
