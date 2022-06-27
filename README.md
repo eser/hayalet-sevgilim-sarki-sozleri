@@ -325,6 +325,15 @@ Haskell:
 nix run
 ```
 
+
+csharp:
+
+```bash
+cd csharp
+dotnet restore
+dotnet run --project Example/Example.csproj
+```
+
 ## Programlama Dilleri
 
 - [Asm](./Asm/)
