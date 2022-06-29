@@ -302,6 +302,13 @@ cd ./scala3
 scalac main.scala
 ```
 
+Vlang:
+
+```bash
+cd ./vlang
+v run hayalet_sevgilim.v
+```
+
 Nginx Web Server in Docker Container:
 
 ```bash
@@ -370,6 +377,7 @@ dotnet run --project Example/Example.csproj
 - [Scala](./scala/)
 - [Scala3](./scala3/)
 - [PowerShell](./powerShell/)
+- [Vlang](./vlang/)
 
 
 ## Kütüphaneler
