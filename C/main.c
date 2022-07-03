@@ -2,7 +2,7 @@
 //  main.c
 //  C
 //
-//  Created by Müslüm Barýþ Korkmazer (04.07.2022)
+//  Created by MÃ¼slÃ¼m BarÄ±ÅŸ Korkmazer (04.07.2022)
 //
 
 #include <stdio.h>
@@ -14,7 +14,7 @@ int main()
     setlocale(LC_ALL, "Turkish");
     FILE *sozler = NULL;
     sozler = fopen("sozler.windows.1254.txt", "r");
-    
+
     char sentence[50] = "";
 
     if (sozler == NULL)
