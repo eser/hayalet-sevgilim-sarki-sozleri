@@ -44,4 +44,4 @@ SELECT
 	'Bebeğim benim hayalet sevgilim',
 	'Bebeğim benim hayalet sevgilim',
 	'Hayalet sevgilim',
-	'Hayalet sevgilim'
+	'Hayalet sevgilim' from "hayalet_sevgilim"
