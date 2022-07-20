@@ -2,7 +2,8 @@
 //  main.c
 //  C
 //
-//  Created by Müslüm Barış Korkmazer (04.07.2022)
+//  Created by Ali Yiğit Taş on 22.06.2022.
+//  Edited by Müslüm Barış Korkmazer (04.07.2022)
 //
 
 #include <stdio.h>
