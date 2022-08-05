@@ -348,6 +348,12 @@ dotnet restore
 dotnet run --project Example/Example.csproj
 ```
 
+racket-lang:
+
+```
+cd racket-lang && docker build -t hayaletsevgilim:1 . && docker run -it hayaletsevgilim:1
+```
+
 ## Programlama Dilleri
 
 - [Asm](./Asm/)
@@ -374,6 +380,7 @@ dotnet run --project Example/Example.csproj
 - [Python I](./py/)
 - [Python II](./python/)
 - [Ruby](./ruby/)
+- [Racket-Lang](./racket-lang/)
 - [Rust I](./rust/)
 - [Rust II](./rs/)
 - [Solidity](./sol/)
