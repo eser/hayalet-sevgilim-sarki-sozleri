@@ -78,11 +78,13 @@
 
       for (let i = 0; i < data.length; i++) {
         const soz = data[i];
-        let el = document.createElement("p");
-        if (soz === "") {
+        let el;
+        if(soz.length > 0) {
+          el = document.createElement("p");
+          el.innerHTML = soz;
+        } else {
           el = document.createElement("br");
         }
-        el.innerHTML = soz;
         container.appendChild(el);
       }
     </script>
