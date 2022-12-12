@@ -1,6 +1,4 @@
-const hatirlaSevgili = () => {
-  return `
-  Ceza mı bu
+const hayaletSevgilim = `Ceza mı bu
 Çektiğim çile mi
 Yıllardır tuttuğum nöbet bitmeyecek mi?
 Bir küçük kar tanesi gibiyim
@@ -57,7 +55,8 @@ Bebeğim benim hayalet sevgilim
 
 Hayalet sevgilim
 Hayalet sevgilim
-  `
-}
 
-export default hatirlaSevgili
+Sanatçı: İrem Aydın
+Çıkış tarihi: 15 Şubat 2006`
+
+export default hayaletSevgilim

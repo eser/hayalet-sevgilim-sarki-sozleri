@@ -1,7 +1,7 @@
 <script setup>
-import hatirlaSevgili from './composables/lyrics'
+import hayaletSevgilim from './composables/lyrics'
 </script>
 
 <template>
-  {{ hatirlaSevgili() }}
+  <pre>{{ hayaletSevgilim }}</pre>
 </template>
